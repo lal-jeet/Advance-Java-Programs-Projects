@@ -10,7 +10,7 @@ public class DatabaseMetaDataDemo {
 
 public static void main(String[] args) {
 try {
-	              // connection with database
+	              // connection with databases
 	Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "system", "1234");
     PreparedStatement ps = con.prepareStatement("select * from emp");
 	
